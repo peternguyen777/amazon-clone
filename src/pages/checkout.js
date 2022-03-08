@@ -50,8 +50,8 @@ const Checkout = () => {
         </div>
 
         {/* right */}
-        <div className="flex flex-col bg-white p-10 shadow-md">
-          {items.length > 0 && (
+        {items.length > 0 && (
+          <div className="flex flex-col bg-white p-10 shadow-md">
             <>
               <h2 className="whitespace-nowrap">
                 Subtotal ({items.length} items):
@@ -69,8 +69,8 @@ const Checkout = () => {
                 {!session ? "Sign in to checkout" : "Proceed to checkout"}
               </button>
             </>
-          )}
-        </div>
+          </div>
+        )}
       </main>
     </div>
   );
