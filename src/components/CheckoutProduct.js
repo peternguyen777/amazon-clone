@@ -6,6 +6,7 @@ import { useDispatch } from "react-redux";
 import { addToBasket, removeFromBasket } from "../slices/basketSlice";
 
 const CheckoutProduct = ({
+  key,
   id,
   title,
   price,
@@ -21,6 +22,7 @@ const CheckoutProduct = ({
 
   const addItemToBasket = () => {
     const product = {
+      key,
       id,
       title,
       price,
