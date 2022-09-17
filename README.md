@@ -27,3 +27,20 @@ Run commands
 
 ![Template Screenshot](TemplateScreenshot.jpg?raw=true "Template Screenshot")
 # amazon-clone
+
+### AILO ZOMBIE TEST SOLUTION
+
+Candidate: Peter Nguyen
+Role applying for: Front-end/Full-Stack Developer
+Portfolio: https://www.peter-nguyen.dev
+
+---
+
+Language used: Javascript
+
+In the terminal:
+
+1) run ```npm install```, which should install the prompt-sync npm package.
+2) run the solution ```node index.js```
+3) You will be prompted for grid size, position of zombies, positions of creatures, moves.
+4) Outputs will be logged in the console.
